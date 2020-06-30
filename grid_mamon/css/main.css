@@ -1,0 +1,18 @@
+@import "_reset.css";
+@import "_fonts.css";
+@import "./all.css";
+@import "_core.css";
+@import "./blocks/_header.css";
+@import "./blocks/_content_OUR SERVICES.css";
+@import "./blocks/_content_OUR CLIENTS.css";
+@import "./blocks/_content_OUR TEAM.css";
+@import "./blocks/_footer.css";
+
+
+/*media*/
+@import "./media/_header.css";
+@import "./media/_content.css";
+@import "./media/_footer.css"; 
+
+
+

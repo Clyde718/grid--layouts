@@ -1,0 +1,24 @@
+.row-5 {}
+.footer-block {}
+.footer-content {
+	min-height: 100px;
+	grid-template-rows: repeat(2, auto);
+	align-content: center;
+	grid-row-gap: 12px;
+}
+.fot-line {
+	height: 2px;
+	background-color: black;
+	width: 100%;
+}
+.fot-text {
+	grid-template-columns: repeat(2, auto);
+	justify-content: space-between;
+}
+.fot-text span {
+	font-size: 9px;
+	letter-spacing: 1px;
+	color: #000000;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+}

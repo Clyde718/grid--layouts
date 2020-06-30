@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+	.instagram-row-title h2 {
+		font-size: 45px;
+	}
+	.instagram-row-subtitle span {
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.instagram-row-title h2 {
+		font-size: 36px;
+	}
+	.instagram-row-subtitle span {
+		font-size: 18px;
+	}
+}

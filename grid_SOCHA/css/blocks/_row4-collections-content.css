@@ -1,0 +1,22 @@
+.row-4 {}
+.row-collections {
+	padding: 33px 0px;
+}
+.row-collections-content {}
+.row-collections-content h6 {
+	font-size: 16px;
+	color: #000000;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 0px 35px;
+}
+.row-collections-content {
+	grid-template-columns: 1fr auto 1fr;
+	align-items: center;
+}
+.grid-mod {
+	display: block;
+	height: 2px;
+	background-color: black;
+}

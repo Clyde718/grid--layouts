@@ -1,0 +1,20 @@
+@import "_reset.css";
+@import "_fonts.css";
+@import "./fontawesome/all.css";
+@import "_core.css";
+@import "./blocks/_row1_header-content.css";
+@import "./blocks/_row2-empty.css";
+@import "./blocks/_row2_media-content.css";
+@import "./blocks/_row4-collections-content.css";
+@import "./blocks/_row3_gallery-content.css";
+@import "./blocks/_footer.css";
+
+
+
+/*media*/
+@import "./media/_row1_header-content.css";
+@import "./media/_row2_media-content.css";
+@import "./media/_row3_gallery-content.css"; 
+
+
+

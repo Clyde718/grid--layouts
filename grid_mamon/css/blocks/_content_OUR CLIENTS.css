@@ -1,0 +1,14 @@
+.our-clients-block {
+	border-top: 1px solid #C2C2C2;
+	position: relative;
+}
+.container {}
+.our-clients-grid {
+	min-height: 427px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	align-content: center;
+	grid-column-gap: 157px;
+	grid-row-gap: 60px;
+}
+.our-clients-grid__item {}

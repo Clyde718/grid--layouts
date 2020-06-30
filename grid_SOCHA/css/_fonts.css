@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Arial-Regular', sans-serif;
+    src: url('../fonts/Arial/ArialRegular/ArialRegular.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial-Bold', sans-serif;
+    src: url('../fonts/Arial/ArialBold/ArialBold.ttf');
+    font-style: normal;
+}

@@ -1,0 +1,22 @@
+@media screen and (max-width: 1180px) {
+	.footer-content {
+		grid-template-columns: 1fr;
+		justify-items: center;
+		grid-row-gap: 40px;
+	}
+	.footer-icons div {
+		margin: 0px 15px;
+	}
+}
+@media screen and (max-width: 944px) {
+	.footer-menu ul li {
+		margin: 10px 20px;
+	}
+	.footer-menu ul {
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.footer-menu ul li:last-child {
+		margin-right: 20px;
+	}
+} 

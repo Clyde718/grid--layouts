@@ -1,0 +1,56 @@
+@media only screen and (max-width : 768px) {
+	.grid-page {
+		grid-template-areas: "a"
+		"b"
+		"c"
+		"d"
+		"e"
+		"f"
+		"g";
+	}
+}
+
+@media only screen and (max-width : 1000px) {
+	.transparent-backing__start, .transparent-backing__dummy, .transparent-backing__webpage, .transparent-backing__form {
+		padding: 55px 35px;
+	}
+	.transparent-backing__services {
+		padding: 45px;
+	}
+	.grid-web-design {
+		padding: 30px;
+	}
+	.grid-web-design_title h2 {
+		font-size: 30px;
+	}
+	.grid-services_drawing--scketch h4, .grid-services_making--design h4, .grid-services_developing--product h4 {
+		font-size: 35px;
+		line-height: 44px;
+		margin-bottom: 35px;
+	}
+	.grid-web-design_title {
+		margin: 45px 0px;
+	}
+	.grid-web-design_paragraph {
+		margin-bottom: 33px;
+	}
+	.grid-services_drawing--scketch, .grid-services_making--design {
+		margin-bottom: 60px;
+	}
+	.webpage-text {
+		margin-top: 22px;
+	}
+	.grid-form--title h4 {
+		text-align: center;
+	}
+	.transparent-backing__form {
+		align-items: center;
+	}
+	.grid-form-icons {
+		justify-content: center;
+	}
+	.grid-form--social span:first-child {
+		display: block;
+		text-align: center;
+	}
+}

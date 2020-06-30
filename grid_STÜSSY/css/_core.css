@@ -1,0 +1,27 @@
+.font-style_novasemibold {
+	font-family: 'proxima_novasemibold', sans-serif;
+}
+.font-style_novalight {
+	font-family: 'proxima_novalight', sans-serif;
+}
+.font-style_novabold {
+	font-family: 'proxima_novabold', sans-serif;
+}
+.text-center {
+	text-align: center;
+}
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.container {
+	max-width: 1500px;
+	margin: 0px auto;
+	padding: 0px 15px;
+}
+.background-setting {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}

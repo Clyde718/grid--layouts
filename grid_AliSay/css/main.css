@@ -1,0 +1,300 @@
+body {
+	font-family: 'Roboto-regular', sans-serif;
+}
+.grid-page {}
+.bg-setting {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.grid-item__bg {
+	background-image: url(../img/bg-1.png);
+	min-height: 715px;
+	grid-area: a;
+}
+.transparent-backing__start, .transparent-backing__dummy, .transparent-backing__webpage, .transparent-backing__form {
+	padding: 75px 55px;
+}
+.trans--mod {
+	width: 100%;
+	height: 100%;
+}
+.transparent-backing__services {
+	background-color: rgba(30, 146, 175, .75);
+	padding: 65px;
+}
+.transparent-backing__start {
+	background-color: rgba(255, 244, 210, .91);
+}
+.transparent-backing__dummy {
+	background-color: rgba(22, 38, 51, .75);
+}
+.transparent-backing__webpage {
+	background-color: rgba(29, 83, 103, .75);
+}
+.grid-web-design {
+	background-color: #f3f3f3;
+	grid-area: b;
+	padding: 50px;
+	color: #262f32;
+}
+.grid-web-design_img {
+	width: 33px;
+	height: 29px;
+	background-image: url(../img/icons/burger.png)
+}
+.grid-web-design_title {
+	margin: 65px 0px;
+}
+.grid-web-design_title h2 {
+	font-family: 'Roboto-light', sans-serif;
+	font-size: 40px;
+	font-weight: 300;
+}
+.bold-text {
+	font-family: 'Roboto-bold', sans-serif;
+} 
+.regular-span {
+	font-family: 'Roboto-regular', sans-serif;
+}
+.grid-web-design_paragraph {
+	font-size: 18px;
+	letter-spacing: 1px;
+	line-height: 28px;
+}
+.grid-web-design_paragraph {
+	margin-bottom: 43px;
+}
+.grid-web-design_paragraph:nth-child(2n) {
+	margin-bottom: 0px;
+}
+.grid-services {
+	grid-area: c;
+	color: #ffffff;
+}
+.bg-setting {}
+.grid-services_drawing--scketch {}
+.grid-services_drawing--scketch h4, .grid-services_making--design h4, .grid-services_developing--product h4 {
+	font-size: 45px;
+	letter-spacing: 1px;
+	line-height: 66px;
+	font-family: 'Roboto-light', sans-serif;
+	margin-bottom: 45px;
+}
+.grid-services_drawing--scketch p, .grid-services_making--design p, .grid-services_developing--product p {
+	font-size: 16px;
+	letter-spacing: 0px;
+	line-height: 28px;
+}
+.font-style-black {
+	font-family: 'Roboto-black', sans-serif;
+}
+.grid-services_making--design {}
+.grid-services_developing--product {}
+.grid-services_drawing--scketch, .grid-services_making--design {
+	margin-bottom: 90px;
+}
+.grid-bestStarting {
+	grid-area: d;
+	color: #262f32;
+}
+.bg-setting {}
+.grid-bestStarting__title {
+	margin-bottom: 42px;
+}
+.grid-bestStarting__title h4 {
+	font-size: 45px;
+	letter-spacing: 1px;
+	line-height: 66px;
+	font-family: 'Roboto-light', sans-serif;
+}
+.grid-bestStarting__title h4 span {
+	font-family: 'Roboto-black', sans-serif;
+}
+.grid-bestStarting__text {
+	margin-bottom: 55px;
+}
+.grid-bestStarting__text p {
+	font-size: 16px;
+	letter-spacing: 0px;
+	line-height: 28px;
+}
+.grid-bestStarting__btn {}
+.grid-bestStarting__btn a {
+	display: inline-block;
+	font-size: 17px;
+	letter-spacing: 1px;
+	line-height: 32px;
+	color: #262f32;
+	border: 1px solid #262f32;
+	border-radius: 15px;
+	padding: 20px 38px;
+}
+.grid-verified-dummy {
+	grid-area: e;
+	color: #ffffff;
+}
+.bg-setting {}
+.grid-verified-dummy__title {
+	margin-bottom: 42px;
+}
+.grid-verified-dummy__title h4 {
+	font-size: 45px;
+	letter-spacing: 1px;
+	line-height: 66px;
+	font-family: 'Roboto-light', sans-serif;
+}
+.font-style-black {
+	font-family: 'Roboto-black', sans-serif;
+}
+.grid-verified-dummy__text {
+	margin-bottom: 55px;
+}
+.grid-verified-dummy__text p {
+	font-size: 16px;
+	letter-spacing: 0px;
+	line-height: 28px;
+}
+.grid-verified-dummy__btn {}
+.grid-verified-dummy__btn a {
+	display: inline-block;
+	font-size: 17px;
+	letter-spacing: 1px;
+	line-height: 32px;
+	border: 1px solid #ffffff;
+	border-radius: 15px;
+	padding: 20px 38px;
+	color: #ffffff;
+}
+.grid-webpage-is-design {
+	grid-area: f;
+	color: #ffffff;
+}
+.transparent-backing__webpage {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+.bg-setting {}
+.grid-webpage-is-design_title {}
+.grid-webpage-is-design_title h4 {
+	font-size: 45px;
+	letter-spacing: 1px;
+	line-height: 66px;
+	font-family: 'Roboto-light', sans-serif;
+}
+.grid-webpage-is-design_content {}
+.webpage-img {
+	width: 90px;
+	height: 90px;
+	background-image: url(../img/icons/Ali-sayed.png);
+}
+.webpage-text {
+	margin-top: 32px;
+}
+.webpage-text h5, .webpage-text span {
+	letter-spacing: 1px;
+	line-height: 66px;
+}
+.webpage-text h5 {
+	font-size: 42px;
+}
+.webpage-text span {
+	font-size: 17px;
+}
+.grid-form {
+	grid-area: g;
+	min-height: 715px;
+}
+.transparent-backing__form {
+	display: flex;
+	flex-direction: column;
+	min-height: 715px;
+}
+.bg-setting {}
+.grid-form--title {}
+.grid-form--title h4, .grid-form--social span {
+	letter-spacing: 1px;
+	color: #ffffff;
+} 
+.grid-form--title h4 {
+	font-size: 45px;
+	line-height: 66px;
+	font-family: 'Roboto-light', sans-serif;
+}
+.grid-form__input {
+	max-width: 620px;
+	margin-top: 55px;
+	flex: 1 1 auto;
+}
+.grid-form__input form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.grid-form__input form > input {
+	padding: 15px 25px;
+	width: calc(50% - 10px);
+}
+.grid-form__input form > input::placeholder, .grid-form__input form > textarea::placeholder {
+	color: #ffffff;
+	font-size: 17px;
+	letter-spacing: 1px;
+	line-height: 32px;
+}
+.grid-form__input form > textarea {
+	padding: 15px 25px;
+	width: 100%;
+	min-height: 124px;
+	margin-top: 15px;
+}
+.grid-form__input form > input, textarea {
+	background: transparent;
+	border: 1px solid #ffffff;
+	border-radius: 15px;
+	color: #ffffff;
+	font-size: 17px;
+	letter-spacing: 1px;
+	line-height: 32px;
+}
+.grid-form--social {}
+.grid-form--social span:nth-child(1) {
+	margin-bottom: 24px;
+}
+.grid-form--social span:last-child {
+	margin-top: 50px;
+}
+.grid-form--social span {
+	font-size: 17px;
+	line-height: 32px;
+}
+.grid-form-icons {
+	display: flex;
+	margin: 22px 0px 44px 0px;
+}
+.grid-form-icons a {
+	display: block;
+	width: 45px;
+	height: 45px;
+	margin-right: 10px;
+}
+.grid-form-icons a:last-child {
+	margin-right: 0px;
+} 
+.form-icons--facebook {
+	background-image: url(../img/icons/facebook.png);
+}
+.form-icons--internet {
+	background-image: url(../img/icons/instagram.png);
+}
+.form-icons--twitter {
+	background-image: url(../img/icons/twitter.png);
+}
+.grid-page {
+	display: grid;
+	grid-template-areas: "a a a a a a b b b"
+	"c c c c d d d d d"
+	"c c c c e e e e e"
+	"f f f g g g g g g";
+}
